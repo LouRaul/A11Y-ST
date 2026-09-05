@@ -1,0 +1,125 @@
+---
+title: "Cheatsheets: Quick-Reference Guides for Common Tasks"
+sidebarTitle: "Cheatsheets"
+description: "A collection of quick-reference cheatsheets for tools, languages, workflows, and processes you use regularly — all in one scannable place."
+---
+
+Cheatsheets serve as the quick-reference layer of your wiki — the pages you reach for when you know roughly what you want to do but can't quite remember the exact syntax, shortcut, or step. Rather than interrupting your flow to search documentation from scratch, a well-maintained cheatsheet gets you unstuck in seconds. Collect them here as you build familiarity with new tools and workflows, and update them whenever you discover a better way.
+
+## What Makes a Good Cheatsheet
+
+<Note>
+  A cheatsheet is not a tutorial or a full reference manual. Its job is to surface the 20% of commands, shortcuts, or steps that cover 80% of your daily use — presented in a format you can scan in seconds, not minutes.
+</Note>
+
+Keep these principles in mind when building a new cheatsheet:
+
+- **Concise** — Include only what you actually use or are likely to forget. Resist the urge to copy entire documentation pages.
+- **Scannable** — Use tables, short labels, and consistent formatting so your eye can jump to the right row instantly.
+- **Example-driven** — Pair every command or shortcut with a concrete, real-world example. Abstract descriptions are harder to apply under pressure.
+- **Regularly updated** — Mark a "Last Updated" date on every cheatsheet and revisit it whenever a tool releases breaking changes or you discover a better approach.
+
+## Cheatsheet Format
+
+Use this template as the starting point for any new cheatsheet you add to the wiki:
+
+```md
+## [Tool or Topic] Cheatsheet
+**Last Updated:** YYYY-MM-DD
+**Scope:** What this covers.
+
+### [Section 1]
+| Command / Shortcut | Description |
+|--------------------|-------------|
+| `example`          | Does X      |
+
+### [Section 2]
+...
+```
+
+Group related commands into named sections so the cheatsheet stays navigable as it grows. If a single cheatsheet starts covering more than five or six distinct areas, consider splitting it into separate pages.
+
+## Sample: Markdown Cheatsheet
+
+**Last Updated:** 2025-01-01
+**Scope:** Core Markdown syntax for formatting text, links, and code in any Markdown-compatible editor.
+
+### Text Formatting
+
+| Syntax | Result |
+|---|---|
+| `**bold text**` | **bold text** |
+| `*italic text*` | *italic text* |
+| `~~strikethrough~~` | ~~strikethrough~~ |
+| `` `inline code` `` | `inline code` |
+
+### Headings
+
+| Syntax | Result |
+|---|---|
+| `# Heading 1` | H1 — page title |
+| `## Heading 2` | H2 — major section |
+| `### Heading 3` | H3 — subsection |
+
+### Links & Images
+
+| Syntax | Description |
+|---|---|
+| `[Link text](https://example.com)` | Inline hyperlink |
+| `![Alt text](image.png)` | Inline image |
+| `[Link text][ref]` + `[ref]: url` | Reference-style link |
+
+### Lists
+
+| Syntax | Description |
+|---|---|
+| `- item` or `* item` | Unordered list item |
+| `1. item` | Ordered list item |
+| Two spaces + `- item` | Nested list item |
+
+### Code Blocks
+
+| Syntax | Description |
+|---|---|
+| ` ```language ` … ` ``` ` | Fenced code block with syntax highlighting |
+| Indent 4 spaces | Indented code block (classic Markdown) |
+
+### Other Elements
+
+| Syntax | Description |
+|---|---|
+| `> text` | Blockquote |
+| `---` | Horizontal rule |
+| `- [ ] task` | Unchecked task list item |
+| `- [x] task` | Checked task list item |
+
+## Sample: Keyboard Shortcuts Cheatsheet
+
+**Last Updated:** 2025-01-01
+**Scope:** General-purpose keyboard shortcuts for macOS and common productivity apps.
+
+### macOS System Shortcuts
+
+| Shortcut | Description |
+|---|---|
+| `Cmd + Space` | Open Spotlight search |
+| `Cmd + Tab` | Switch between open apps |
+| `Cmd + ~` | Switch between windows of the same app |
+| `Cmd + Shift + 4` | Screenshot — select area |
+| `Cmd + Shift + 5` | Screenshot / screen recording options |
+| `Ctrl + Cmd + Q` | Lock screen immediately |
+
+### Text Editing (Universal)
+
+| Shortcut | Description |
+|---|---|
+| `Cmd + Z` | Undo |
+| `Cmd + Shift + Z` | Redo |
+| `Cmd + A` | Select all |
+| `Option + Left / Right` | Move cursor by word |
+| `Cmd + Left / Right` | Move cursor to line start / end |
+| `Cmd + Shift + Left / Right` | Select to line start / end |
+
+<Tip>
+  Print out your most-used cheatsheets and keep them visible at your desk, or pin the wiki pages as browser tabs during focused work sessions. The fewer context switches required to find what you need, the faster you stay in flow.
+</Tip>
